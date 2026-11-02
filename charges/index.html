@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sweet Bites · WhatsApp Ordering Charges</title>
+<meta name="description" content="Charges for WhatsApp ordering for Sweet Bites, Pune, by Selly.">
+<meta name="theme-color" content="#3b2560">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* A quote sheet: one readable column, the two prices up front, tables below. */
+  :root{
+    color-scheme: light;
+    --paper:#ffffff; --ground:#f3eefa; --ink:#241a36; --muted:#685e7c; --line:#e3daf0;
+    --plum:#3b2560; --plum2:#5b3a8e; --soft:#efe7fa; --wa:#00a884;
+    --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --body:"Manrope", "Segoe UI", system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;
+    padding:32px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px))}
+  .sheet{max-width:760px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:24px;
+    padding:clamp(22px,5vw,48px);box-shadow:0 24px 50px -36px rgba(59,37,96,.45)}
+  .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
+    font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .top b{color:var(--plum2)}
+  h1{font-family:var(--display);font-weight:800;color:var(--plum);font-size:clamp(30px,6vw,44px);line-height:1.05;
+    letter-spacing:-.02em;margin:18px 0 6px;text-wrap:balance}
+  .meta{color:var(--muted);font-size:14px;margin:0}
+  .prices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0 8px}
+  .price{background:var(--soft);border-radius:16px;padding:16px}
+  .price b{display:block;font-family:var(--display);font-size:clamp(24px,4.5vw,32px);color:var(--plum);line-height:1.1;font-variant-numeric:tabular-nums}
+  .price span{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4}
+  @media (max-width:560px){ .prices{grid-template-columns:minmax(0,1fr)} }
+  h2{font-family:var(--display);font-weight:700;color:var(--plum);font-size:22px;margin:36px 0 10px;letter-spacing:-.01em}
+  p{margin:0 0 12px;max-width:65ch}
+  ul{margin:8px 0 0;padding-left:20px}
+  li{margin:4px 0}
+  .tbl{overflow-x:auto;margin:14px 0 12px;border:1px solid var(--line);border-radius:14px}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:480px}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--soft);color:var(--plum);font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:800}
+  tr:last-child td{border-bottom:none}
+  td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  tr.total td{font-weight:800;background:#faf7fe}
+  .year{background:var(--plum);color:#fff;border-radius:16px;padding:16px 18px;margin:16px 0 12px}
+  .year b{font-family:var(--display);font-size:22px}
+  .year p{color:#e9e0f7;margin:4px 0 0;font-size:14px}
+  .note{font-size:13.5px;color:var(--muted)}
+  a{color:var(--plum2);font-weight:700}
+  .demo{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+  .demo span{color:var(--muted);font-size:14px}
+  .demo a{background:var(--wa);color:#fff;text-decoration:none;border-radius:999px;padding:11px 18px;font-size:14.5px}
+  .demo a:focus-visible,a:focus-visible{outline:3px solid var(--plum2);outline-offset:2px}
+</style>
+</head>
+<body>
+<main class="sheet">
+  <div class="top"><span>Charge sheet · <b>Selly</b></span><span>2 November 2026</span></div>
+  <h1>Sweet Bites · WhatsApp Ordering Charges</h1>
+  <p class="meta">Prepared by Selly for Sweet Bites, Pune</p>
+
+  <div class="prices" aria-label="Prices at a glance">
+    <div class="price"><b>₹9,999</b><span>once, to go live</span></div>
+    <div class="price"><b>₹0.35</b><span>per order reply or order update</span></div>
+    <div class="price"><b>₹1.20</b><span>per offer message</span></div>
+  </div>
+
+  <h2>Summary</h2>
+  <p>Sweet Bites pays <strong>₹9,999 once</strong> to go live, then only for the messages sent: <strong>₹0.35</strong> for each order reply or order update and <strong>₹1.20</strong> for each offer message. There is <strong>no monthly fee</strong>. At about 300 orders a month that comes to roughly <strong>₹3,400 a month including GST</strong>, or about ₹11 per order.</p>
+  <p>Selly is a registered WhatsApp Tech Provider with Meta. Sweet Bites' number is connected to the official WhatsApp Business Platform directly through Selly, with no other reseller in between. The number and the customer list stay Sweet Bites' own.</p>
+  <p>What customers get is the ordering assistant in the Sweet Bites demo: the menu as a tap-to-choose list, a photo menu link, sizes and prices, a message on the cake, date and time slot, delivery or pickup, UPI payment in the chat, and automatic order updates.</p>
+
+  <h2>One-time setup: ₹9,999</h2>
+  <p>Paid once, before work starts. It covers everything needed to go live in about 7 working days.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>What we do</th><th>Details</th></tr></thead>
+    <tbody>
+      <tr><td>WhatsApp Business Platform account</td><td>Connected under Selly's Tech Provider account, with Meta business verification and display name approval for "Sweet Bites"</td></tr>
+      <tr><td>Phone number</td><td>Your existing number moved to the platform, or a new one set up</td></tr>
+      <tr><td>Menu</td><td>All 41 items from the current menu, with every size and price</td></tr>
+      <tr><td>Photo menu page</td><td>A web page with the photos, opened from a link in the chat</td></tr>
+      <tr><td>Ordering assistant</td><td>Built and tested: menu, cart, cake messages, date and slot, delivery or pickup, payment, updates</td></tr>
+      <tr><td>Message templates</td><td>Order confirmation, status updates and festive offers written and sent to Meta for approval</td></tr>
+      <tr><td>Training</td><td>One session for the Sweet Bites team on the order screen</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Price per message</h2>
+  <p>After setup, Sweet Bites pays only for what is sent, from a prepaid balance. A month with no orders costs nothing. Each price already includes WhatsApp's own charge from Meta.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Message</th><th>When it is sent</th><th class="num">Price per message</th></tr></thead>
+    <tbody>
+      <tr><td>Order reply</td><td>Answers while a customer is ordering: menu, sizes, cart, payment link</td><td class="num">₹0.35</td></tr>
+      <tr><td>Order update</td><td>Confirmation, baking, out for delivery, delivered</td><td class="num">₹0.35</td></tr>
+      <tr><td>Offer</td><td>Festive offers and "order again" messages to past customers</td><td class="num">₹1.20</td></tr>
+      <tr><td>Login code</td><td>One-time codes, if ever needed</td><td class="num">₹0.35</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li>Messages customers send to Sweet Bites are free.</li>
+    <li>Only delivered messages are charged.</li>
+    <li>A chat that starts from a Click-to-WhatsApp ad is free for up to 7 days.</li>
+    <li>If Meta changes its rates (<a href="https://developers.facebook.com/docs/whatsapp/pricing/" target="_blank" rel="noopener">Meta pricing</a>), the prices change by the same amount, with notice.</li>
+  </ul>
+
+  <h2>Example: a month at 300 orders</h2>
+  <p>At 300 orders and two festive offers, a month costs about <strong>₹3,398 including GST</strong>, or about ₹11 an order. Without the offers it is about ₹1,982, or under ₹7 an order.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Item</th><th>Working</th><th class="num">Amount (₹)</th></tr></thead>
+    <tbody>
+      <tr><td>Order replies</td><td>300 orders × 12 replies = 3,600 × ₹0.35</td><td class="num">1,260</td></tr>
+      <tr><td>Order updates</td><td>300 orders × 4 updates = 1,200 × ₹0.35</td><td class="num">420</td></tr>
+      <tr><td>Offers</td><td>2 offers × 500 past customers = 1,000 × ₹1.20</td><td class="num">1,200</td></tr>
+      <tr><td>Subtotal</td><td></td><td class="num">2,880</td></tr>
+      <tr><td>GST</td><td>18%</td><td class="num">518</td></tr>
+      <tr class="total"><td>Total for the month</td><td></td><td class="num">3,398</td></tr>
+    </tbody>
+  </table></div>
+  <div class="year"><b>₹52,575</b> total cost for Sweet Bites in the first year
+    <p>The setup fee with GST (₹11,799) plus 12 months like the one above (₹40,776).</p></div>
+  <p class="note">The message counts are estimates from the demo's ordering flow. The real counts show on each monthly statement.</p>
+
+  <div class="demo"><span>See how ordering works for your customers.</span><a href="../">Open the Sweet Bites demo</a></div>
+</main>
+</body>
+</html>
